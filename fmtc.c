@@ -12,7 +12,7 @@ int main (int argc, char **argv) {
 	int m = 0;
 	int cnt = 0;
 
-	if (!(argc > 1 && (linw = atoi(argv[1]))))
+	if (!(argc > 1 && (linw = abs(atoi(argv[1])))))
 		linw = 90;	/* set default line width */
 
 	while (fgets(letters, SIZE, stdin)) {
