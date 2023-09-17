@@ -6,7 +6,7 @@
 
 int main (int argc, char **argv) {
 
-	char letters[SIZE]={'\0'};
+	char letters[SIZE];
 	char *k;
 	int i, j, linw;
 	int m = 0;
